@@ -1,4 +1,5 @@
 import React from 'react'
+import './Header.css'
 
 const Header = ({user}) => {
     const {name, status} = user;
