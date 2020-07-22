@@ -2,10 +2,12 @@
      flex: 1 1 0;
      display: flex;
      flex-direction: column;
+     border-bottom: 1px solid rgba(189, 189, 192, 0.2);
      align-items: flex-start;
      width: 85%;
      margin: 0 auto;
      overflow-y: scroll;
+     height: 50vh;
      z-index: -1;
     }
 
@@ -27,9 +29,13 @@
      border-bottom-right-radius: 10px;
     }
 
-.Chat .is_user_msg {
+.is_user_msg {
+    color: #fff;
+    padding: 1rem;
      margin-left: auto;
-     background: #2b2c33;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     background: #363846;
      border-top-right-radius: 0;
      border-bottom-right-radius: 0;
      border-top-left-radius: 10px;
@@ -40,5 +46,8 @@
     @media (min-width: 576px) {
      .Chat {
           max-width: 60%;
+    }
+    .Chats{
+        height: 400px;
     }
    }

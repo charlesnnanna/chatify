@@ -4,12 +4,15 @@
     border-bottom: 1px solid rgba(189, 189, 192, 0.2);
     position: sticky;
     top: 0;
-    width : 100%;
     position: -webkit-sticky;
     z-index: 1000;
    }
 
 
-.Header__name {
+.Header_name {
     color: #fff;
    }
+
+.Header_status{
+    font-size: 15px;
+}

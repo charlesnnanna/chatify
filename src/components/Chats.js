@@ -5,11 +5,9 @@ const Chat = ({message}) => {
     const {text, is_user_msg} = message;
 
     
-        if (is_user_msg){
-            return  <span className = 'Chat is_user_msg'>{text}</span>
-        } else{
-            return  <span className = 'Chat'>{text}</span>
-        }
+        
+            return  <span className = {`${is_user_msg ? "is_user_msg" : "Chat"}`}>{text}</span>
+        
     }
 
 
