@@ -13,7 +13,6 @@ const MessageInput = ({value}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         store.dispatch(sendMessage(typed, activeUserId));
     }
 
@@ -22,7 +21,7 @@ const MessageInput = ({value}) => {
             <input
              
              className = 'Message_input'
-             value = {value}
+             value = {typed}
              onChange = {dispatchTypedValue}
              placeholder = 'write a message'
             />
