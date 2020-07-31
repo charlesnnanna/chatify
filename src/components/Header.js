@@ -7,7 +7,7 @@ const Header = ({user}) => {
     return(
         <header className = 'Header'>
             <h1 className = 'Header_name'>{name}</h1>
-            <p className = 'Header_status'>{status}</p>
+            <p className = 'Header_status'>{status.substr(0, 12)}...</p>
         </header>
     )
 }

@@ -1,9 +1,12 @@
 .Message{
     margin: 1rem auto;
     width : 80%;
+    height: 20vh;
+    
 }
 
 .Message_input{
+
     width: 90%;
  padding: 1rem;
  background: rgba(0, 0, 0, 0.8);
@@ -12,4 +15,5 @@
  border-radius: 10px;
  font-size: 1rem;
  outline: 0;
+ 
 }
